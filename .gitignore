@@ -1,0 +1,58 @@
+# General
+/.idea/
+/.vscode/
+/*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Composer
+/vendor/
+/composer.lock
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/tests/_output/
+
+# Laravel
+/public/storage
+/public/hot
+/public/uploads
+/storage/*.key
+/storage/debugbar/*
+/storage/framework/*
+/storage/logs/*
+/storage/app/*.sqlite
+/.env
+/.env.*.local
+
+# Symfony
+/var/
+/vendor/
+/composer.lock
+/.env
+/.env.local
+/.env.*.local
+
+# WordPress
+/wp-content/uploads/
+wp-config.php
+wp-config-sample.php
+
+# Node modules (if using Node.js)
+node_modules/
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.vscode/
+*.DS_Store
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
